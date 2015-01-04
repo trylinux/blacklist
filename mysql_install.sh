@@ -4,7 +4,12 @@
 #Written By: Zachary Wikholm
 #This is to create the necessary directories and mysql databases. Please only run once. 
 
-  
+###################################
+#Create the directories
+
+
+
+
 EXPECTED_ARGS=4
 E_BADARGS=65
 MYSQL=`which mysql`
@@ -25,3 +30,4 @@ then
 fi
   
 $MYSQL -uroot -p -e "$SQL"
+touch 
